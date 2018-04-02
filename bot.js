@@ -11,7 +11,7 @@ const bot = new Discord.Client();
 const token = config.token;
 
 // Bot command prefix
-const prefix = "!bunjs";
+const prefix = "!bun";
 
 
 // Commands
