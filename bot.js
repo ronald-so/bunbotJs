@@ -52,7 +52,7 @@ const commands = {
     },
     emoji: { // List all emoji
         startCommand: function (msg) {
-            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar\ntilt```')
+            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar\ntilt\ncoffee```')
         }
     },
     bun: {
@@ -185,6 +185,16 @@ const commands = {
             };
             if (arg == "l") {
                 msg.channel.send("", { file: "images/buntilted.png" });
+            }
+        }
+    },
+    coffee: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.buncoffee);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/buncoffee.png" });
             }
         }
     }
