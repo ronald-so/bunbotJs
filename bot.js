@@ -177,6 +177,16 @@ const commands = {
                 msg.channel.send("", { file: "images/bunstar.png" });
             }
         }
+    },
+    tilted: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.buntilted);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/buntilted.png" });
+            }
+        }
     }
 }
 
