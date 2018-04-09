@@ -52,7 +52,7 @@ const commands = {
     },
     emoji: { // List all emoji
         startCommand: function (msg) {
-            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar```')
+            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar\ntilt```')
         }
     },
     bun: {
