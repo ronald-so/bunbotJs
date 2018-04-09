@@ -32,12 +32,12 @@ To make full use of the bot, access to the following API/keys are required:
 * [Discord](https://discordapp.com/developers/docs/intro)
   * Get a bot token by following the link -> create new app -> create bot user -> token
 
-Open the `config.json` file and replace the corresponding values with your key/token!
+Open the `config_example.json` file and replace the corresponding values with your key/token, and then rename the file to `config.json`.
 
 # How to use
-Simply type `!bunjs <command> <arg>` while the bot is running on your Discord server. The following commands are available:
+Simply type `!bun <command> <arg>` while the bot is running on your Discord server. The following commands are available:
 
-* `!bunjs emoji` - Lists all emoji currently available on the bot.
-* `!bunjs <emojiname> <arg>` - Bot will send an emoji. Optional argument `l` or `a` after the emoji name for large/animated emojis (if applicable)
-* `!bunjs give <keyword>` - Finds a random image on Google based on the keyword
-* `!bunjs vid <keyword>` - Finds a random video on YouTube based on the keyword
+* `!bun emoji` - Lists all emoji currently available on the bot.
+* `!bun <emojiname> <arg>` - Bot will send an emoji. Optional argument `l` or `a` after the emoji name for large/animated emojis (if applicable)
+* `!bun give <keyword>` - Finds a random image on Google based on the keyword
+* `!bun vid <keyword>` - Finds a random video on YouTube based on the keyword
