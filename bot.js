@@ -196,7 +196,8 @@ const commands = {
             if (arg == "l") {
                 msg.channel.send("", { file: "images/buncoffee.png" });
             }
-        },
+        }
+    },
     smile: {
         startCommand: function (msg, arg) {
             if (!arg) {
@@ -205,7 +206,8 @@ const commands = {
             if (arg == "l") {
                 msg.channel.send("", { file: "images/bunsmile.png" });
             }
-        },
+        }
+    },
     beer: {
         startCommand: function (msg, arg) {
             if (!arg) {
@@ -214,7 +216,8 @@ const commands = {
             if (arg == "l") {
                 msg.channel.send("", { file: "images/bunbeer.png" });
             }
-        },
+        }
+    },
     bleh: {
         startCommand: function (msg, arg) {
             if (!arg) {
@@ -223,7 +226,8 @@ const commands = {
             if (arg == "l") {
                 msg.channel.send("", { file: "images/bunbleh.png" });
             }
-        },
+        }
+    },
     drunk: {
         startCommand: function (msg, arg) {
             if (!arg) {
@@ -232,7 +236,8 @@ const commands = {
             if (arg == "l") {
                 msg.channel.send("", { file: "images/bundrunk.png" });
             }
-        },
+        }
+    },
     wink: {
         startCommand: function (msg, arg) {
             if (!arg) {
