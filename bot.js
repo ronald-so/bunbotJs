@@ -251,7 +251,7 @@ const commands = {
     shocked: {
         startCommand: function (msg, arg) {
             if (!arg) {
-                msg.channel.send(emoji.bunwink);
+                msg.channel.send(emoji.bunshocked);
             };
             if (arg == "l") {
                 msg.channel.send("", { file: "images/bunshocked.png" });
