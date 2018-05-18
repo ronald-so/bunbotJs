@@ -52,7 +52,7 @@ const commands = {
     },
     emoji: { // List all emoji
         startCommand: function (msg) {
-            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar\ntilt\ncoffee```')
+            msg.channel.send('```\nbun\nsleepy\nangry\neating\ncrying\npoo\nhi\npuke\nbook\nconfused\ndisco\nstar\ntilt\ncoffee\nsmile\nbeer\nbleh\ndrunk\nwink```')
         }
     },
     bun: {
@@ -195,6 +195,51 @@ const commands = {
             };
             if (arg == "l") {
                 msg.channel.send("", { file: "images/buncoffee.png" });
+            }
+        },
+    smile: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bunsmile);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bunsmile.png" });
+            }
+        },
+    beer: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bunbeer);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bunbeer.png" });
+            }
+        },
+    bleh: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bunbleh);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bunbleh.png" });
+            }
+        },
+    drunk: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bundrunk);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bundrunk.png" });
+            }
+        },
+    wink: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bunwink);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bunwink.png" });
             }
         }
     }
