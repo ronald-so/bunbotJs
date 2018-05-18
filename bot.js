@@ -247,6 +247,16 @@ const commands = {
                 msg.channel.send("", { file: "images/bunwink.png" });
             }
         }
+    },
+    shocked: {
+        startCommand: function (msg, arg) {
+            if (!arg) {
+                msg.channel.send(emoji.bunwink);
+            };
+            if (arg == "l") {
+                msg.channel.send("", { file: "images/bunshocked.png" });
+            }
+        }
     }
 }
 
