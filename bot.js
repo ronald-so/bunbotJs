@@ -276,12 +276,18 @@ bot.on('message', message => {
     }
 });
 
+
+// Error handling
+bot.on('error', console.error);
+
+
 // Run command function
 function runCommand(inputMsg, inputCmd, inputArg) {
     if (!commands[inputCmd]) {
         return;
     }
     commands[inputCmd].startCommand(inputMsg, inputArg);
-}
+};
+
 
 bot.login(token);
